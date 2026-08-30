@@ -82,22 +82,22 @@ SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, 
 
 ATCAscendingFromPaletoPadPrioA() {
 global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto MD Pad, 1000 feet, Priority A")
+SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority A")
 }
 
 ATCAscendingFromPaletoPadPrioB() {
 global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto MD Pad, 1000 feet, Priority B")
+SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority B")
 }
 
 ATCAscendingFromPaletoPadPrioC() {
 global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto MD Pad, 1000 feet, Priority C")
+SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority C")
 }
 
 ATCAscendingFromPaletoPadPrioO() {
 global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto MD Pad, 1000 feet, Priority O")
+SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority O")
 }
 
 ; ============================================================
@@ -133,5 +133,5 @@ SendCommand("/ATC " Aircraft " to ATC, descending to Davis Station")
 
 ATCDescendingToPaletoPad() {
 global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, descending to Paleto MD Pad")
+SendCommand("/ATC " Aircraft " to ATC, descending to Paleto Pad")
 }
