@@ -44,7 +44,7 @@ Gui, MainMenu:Add, Text, w300 Center, MD - SD
 
 Gui, MainMenu:Font, s8 italic norm, Segoe UI
 Gui, MainMenu:Add, Text, w300 Center vBreadcrumb, Main Menu
-Gui, MainMenu:Font, c008000 s9 bold, Segoe UI
+Gui, MainMenu:Font, c000000 s9 bold, Segoe UI
 Gui, MainMenu:Add, Text, y+8 w300 Center vCurrentCallsign, %CurrentCallsign%
 
 Gui, MainMenu:Font, s10 norm, Segoe UI
