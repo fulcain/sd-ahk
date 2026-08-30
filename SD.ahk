@@ -55,7 +55,7 @@ Gui, MainMenu:Add, Button, x+5 w70 gGoBack, Back
 Gui, MainMenu:Add, Button, x+5 w70 gGoHome, Home
 Gui, MainMenu:Add, Button, x+5 w70 gCloseMenu, Close
 
-Gui, MainMenu:Show, AutoSize Center, MD-SD Menu
+Gui, MainMenu:Show, AutoSize Center, SD Menu
 g_GuiHwnd := WinExist()
 }
 
