@@ -4,7 +4,7 @@
 ; ════════════════════════════════════════════════════════════════════════════
 ;  SD · Sheriff dispatch menu (FiveM SD)                     AutoHotkey v2
 ; ────────────────────────────────────────────────────────────────────────────
-;  Numpad8          open / close the menu
+;  Ctrl + 8          open / close the menu
 ;  Ctrl+Numpad8     pause / resume the script's hotkeys
 ;
 ;  Inside the menu
