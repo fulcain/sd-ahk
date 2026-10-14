@@ -1,137 +1,92 @@
-; ============================================================
-; ATC CONFIG
-; ============================================================
+; ════════════════════════════════════════════════════════════════════════════
+;  components/atc.ahk · ATC calls                              AutoHotkey v2
+; ────────────────────────────────────────────────────────────────────────────
+;  Every call below is sent with the active callsign from the `Aircraft`
+;  global (set in SD.ahk, changed in game from "Set callsign"). In v2 a
+;  function can read a global without declaring it, so these stay one-liners.
+; ════════════════════════════════════════════════════════════════════════════
 
-global Aircraft := "AIRSD-7"
-
-; ============================================================
-; ASCENDING - SANDY
-; ============================================================
-
+; ─── Ascending · Sandy ─────────────────────────────────────────────────────
 ATCAscendingFromSandyPrioA() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority A")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority A")
 }
 
 ATCAscendingFromSandyPrioB() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority B")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority B")
 }
 
 ATCAscendingFromSandyPrioC() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority C")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority C")
 }
 
 ATCAscendingFromSandyPrioO() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority O")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Sandy Helipad, 1000 feet, Priority O")
 }
 
-; ============================================================
-; ASCENDING - FORT ZANCUDO
-; ============================================================
-
+; ─── Ascending · Fort Zancudo ──────────────────────────────────────────────
 ATCAscendingFromFortZancudoPrioA() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority A")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority A")
 }
 
 ATCAscendingFromFortZancudoPrioB() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority B")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority B")
 }
 
 ATCAscendingFromFortZancudoPrioC() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority C")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority C")
 }
 
 ATCAscendingFromFortZancudoPrioO() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority O")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Fort Zancudo, 1000 feet, Priority O")
 }
 
-; ============================================================
-; ASCENDING - DAVIS STATION
-; ============================================================
-
+; ─── Ascending · Davis Station ─────────────────────────────────────────────
 ATCAscendingFromDavisStationPrioA() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority A")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority A")
 }
 
 ATCAscendingFromDavisStationPrioB() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority B")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority B")
 }
 
 ATCAscendingFromDavisStationPrioC() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority C")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority C")
 }
 
 ATCAscendingFromDavisStationPrioO() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority O")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Davis Station, 1000 feet, Priority O")
 }
 
-; ============================================================
-; ASCENDING - PALETO PAD
-; ============================================================
-
+; ─── Ascending · Paleto Pad ────────────────────────────────────────────────
 ATCAscendingFromPaletoPadPrioA() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority A")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority A")
 }
 
 ATCAscendingFromPaletoPadPrioB() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority B")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority B")
 }
 
 ATCAscendingFromPaletoPadPrioC() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority C")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority C")
 }
 
 ATCAscendingFromPaletoPadPrioO() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority O")
+    SendCommand("/ATC " Aircraft " to ATC, ascending from Paleto Pad, 1000 feet, Priority O")
 }
 
-; ============================================================
-; DESCENDING - SANDY
-; ============================================================
-
+; ─── Descending ────────────────────────────────────────────────────────────
 ATCDescendingToSandy() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, descending to Sandy Helipad")
+    SendCommand("/ATC " Aircraft " to ATC, descending to Sandy Helipad")
 }
-
-; ============================================================
-; DESCENDING - FORT ZANCUDO
-; ============================================================
 
 ATCDescendingToFortZancudo() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, descending to Fort Zancudo")
+    SendCommand("/ATC " Aircraft " to ATC, descending to Fort Zancudo")
 }
-
-; ============================================================
-; DESCENDING - DAVIS STATION
-; ============================================================
 
 ATCDescendingToDavisStation() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, descending to Davis Station")
+    SendCommand("/ATC " Aircraft " to ATC, descending to Davis Station")
 }
 
-; ============================================================
-; DESCENDING - PALETO PAD
-; ============================================================
-
 ATCDescendingToPaletoPad() {
-global Aircraft
-SendCommand("/ATC " Aircraft " to ATC, descending to Paleto Pad")
+    SendCommand("/ATC " Aircraft " to ATC, descending to Paleto Pad")
 }
